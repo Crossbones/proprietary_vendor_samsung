@@ -21,3 +21,5 @@ $(call inherit-product-if-exists, vendor/invensense/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/nxp/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/samsung/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/ti/$(LOCAL_STEM))
+
+$(call inherit-product, vendor/samsung/toro/device-vendor-blobs.mk)
