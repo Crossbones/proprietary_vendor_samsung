@@ -12,12 +12,22 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_STEM := toroplus/device-partial.mk
-
-$(call inherit-product-if-exists, vendor/broadcom/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/csr/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/imgtec/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/invensense/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/nxp/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/samsung/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/ti/$(LOCAL_STEM))
+# Samsung blob(s) necessary for Toroplus hardware
+PRODUCT_PACKAGES := \
+    BIP \
+	HiddenMenu \
+    SDM \
+	SecPhone \
+	SyncMLSvc \
+	ducati-m3 \
+    fRom \
+    gps.omap4 \
+    lib_gsd4t \
+    libpn544_fw \
+    libsec-ril \
+    libsec-ril_lte \
+    libsecril-client \
+    libsyncml_core \
+	libsyncml_port \
+	libwvm \
+    sirfgps
