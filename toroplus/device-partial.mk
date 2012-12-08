@@ -17,8 +17,8 @@ PRODUCT_PACKAGES := \
     BIP \
 	HiddenMenu \
     SDM \
-    SecPhone \
-    SyncMLSvc \
+	SecPhone \
+	SyncMLSvc \
 	ducati-m3 \
     fRom \
     gps.omap4 \
