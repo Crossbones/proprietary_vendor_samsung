@@ -15,13 +15,12 @@
 # Samsung blob(s) necessary for Maguro hardware
 PRODUCT_PACKAGES := \
     fRom \
-    gps.omap4 \
     libsec-ril \
     libsecril-client \
+    sirfgps \
     ducati-m3 \
-    libdrmwvmplugin \
-    libWVStreamControlAPI_L1 \
+    gps.omap4 \
     libwvdrm_L1 \
     libwvm \
-    libpn544_fw \
-    sirfgps
+    libWVStreamControlAPI_L1 \
+    libdrmwvmplugin
