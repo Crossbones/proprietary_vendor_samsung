@@ -26,4 +26,17 @@ PRODUCT_PACKAGES := \
     libsec-ril_lte \
     sirfgps \
     ducati-m3 \
-    libwvm
+    libwvm \
+    libWVStreamControlAPI_L1 \
+    gps.omap4 \
+    fw_bcmdhd \
+    fw_bcmdhd_apsta \
+    fw_bcmdhd_p2p \
+    libaah_rtp \
+    libfrsdk \
+    libgcomm_jni \
+    libspeexwrapper \
+    mms144_ts_rev31 \
+    mms144_ts_rev32 \
+    smc_normal_world_android_cfg \
+    smc_pa_wvdrm
