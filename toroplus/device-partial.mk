@@ -15,6 +15,8 @@
 # Samsung blob(s) necessary for ToroPlus hardware
 PRODUCT_PACKAGES := \
     BIP \
+    HiddenMenu \
+    SprintExtension \
     SDM \
     SecPhone \
     SyncMLSvc \
