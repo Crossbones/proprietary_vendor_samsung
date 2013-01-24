@@ -16,7 +16,6 @@
 PRODUCT_PACKAGES := \
     BIP \
     HiddenMenu \
-    SprintExtension \
     SDM \
     SecPhone \
     SyncMLSvc \
