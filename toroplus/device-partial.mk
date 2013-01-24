@@ -42,4 +42,5 @@ PRODUCT_PACKAGES := \
     mms144_ts_rev31 \
     mms144_ts_rev32 \
     smc_normal_world_android_cfg \
-    smc_pa_wvdrm
+    smc_pa_wvdrm \
+    wmdsi
