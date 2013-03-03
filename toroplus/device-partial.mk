@@ -19,28 +19,13 @@ PRODUCT_PACKAGES := \
     SDM \
     SecPhone \
     SyncMLSvc \
-    fRom \
     ducati-m3 \
+    fRom \
+    gps.omap4 \
+    lib_gsd4t \
+    libsec-ril_lte \
     libsecril-client \
     libsyncml_core \
     libsyncml_port \
-    lib_gsd4t \
-    libsec-ril_lte \
-    sirfgps \
-    ducati-m3 \
-    gps.omap4 \
-    libdrmwvmplugin \
-    libwvdrm_L1 \
     libwvm \
-    libWVStreamControlAPI_L1 \
-    fw_bcmdhd \
-    fw_bcmdhd_apsta \
-    fw_bcmdhd_p2p \
-    libfrsdk \
-    libgcomm_jni \
-    libspeexwrapper \
-    mms144_ts_rev31 \
-    mms144_ts_rev32 \
-    smc_normal_world_android_cfg \
-    smc_pa_wvdrm \
-    wmdsi
+    sirfgps
