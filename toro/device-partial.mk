@@ -17,6 +17,11 @@ PRODUCT_PACKAGES := \
     BIP \
     IMSFramework \
     RTN \
+    SDM\
+    SPG \
+    SyncMLSvc \
+    libsyncml_core \
+    libsyncml_port \
     fRom \
     libsecril-client \
     lib_gsd4t \
@@ -36,9 +41,3 @@ PRODUCT_PACKAGES := \
     VZWAPNLib \
     VZWAPNService
 
-# Disabled PRODUCT_PACKAGES
-#    SDM #Samsung software update
-#    SPG #Wireless tether authorization service
-#    SyncMLSvc #SyncML Service for communication to VZW. Required for SPG.
-#    libsyncml_core #SyncML Service for communication to VZW. Required for SPG.
-#    libsyncml_port #SyncML Service for communication to VZW. Required for SPG.
